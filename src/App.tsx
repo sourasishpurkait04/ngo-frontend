@@ -14,6 +14,7 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import FloatingSocial from './components/FloatingSocial';
 import LoadingAnimation from './components/LoadingAnimation';
+import AttendanceForm from './components/AttendanceForm';
 
 import AllMembers from './pages/AllMembers';
 import CoreMembers from './pages/CoreMembers.tsx';
@@ -35,6 +36,7 @@ function Home() {
       <Projects />
 
       <About />
+      <AttendanceForm />
       <Reviews />
       <PhotoScroll />
       <Testimonials />

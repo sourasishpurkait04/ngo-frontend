@@ -77,6 +77,15 @@ const Hero = () => {
               <span>Donate Now</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
+            <a
+              href="#attendance-form"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-red-500 px-8 py-4 text-black font-semibold shadow-lg transition
+                         hover:bg-red-600 active:scale-[0.99]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+              aria-label="Blood Donar"
+            >
+              <span>Blood Donar</span>
+            </a>
           </div>
 
           {/* Coming Soon Section */}
@@ -86,40 +95,40 @@ const Hero = () => {
             </h2>
 
             {/* Countdown Timer */}
-            <div className="flex flex-wrap gap-4 justify-center items-center">
+            <div className="flex flex-row flex-wrap md:flex-nowrap gap-2 md:gap-4 justify-center items-center text-sm md:text-base">
               <div className="text-center">
-                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
-                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-3 py-2 md:px-6 md:py-4 backdrop-blur-sm">
+                  <div className="text-2xl md:text-4xl font-bold text-[#b0db9c]">
                     {String(timeLeft.days).padStart(2, '0')}
                   </div>
-                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Days</div>
+                  <div className="uppercase tracking-widest text-gray-300 mt-1">Days</div>
                 </div>
               </div>
-              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-xl md:text-3xl font-bold text-gray-300">:</div>
               <div className="text-center">
-                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
-                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-3 py-2 md:px-6 md:py-4 backdrop-blur-sm">
+                  <div className="text-2xl md:text-4xl font-bold text-[#b0db9c]">
                     {String(timeLeft.hours).padStart(2, '0')}
                   </div>
-                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Hours</div>
+                  <div className="uppercase tracking-widest text-gray-300 mt-1">Hours</div>
                 </div>
               </div>
-              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-xl md:text-3xl font-bold text-gray-300">:</div>
               <div className="text-center">
-                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
-                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-3 py-2 md:px-6 md:py-4 backdrop-blur-sm">
+                  <div className="text-2xl md:text-4xl font-bold text-[#b0db9c]">
                     {String(timeLeft.minutes).padStart(2, '0')}
                   </div>
-                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Minutes</div>
+                  <div className="uppercase tracking-widest text-gray-300 mt-1">Minutes</div>
                 </div>
               </div>
-              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-xl md:text-3xl font-bold text-gray-300">:</div>
               <div className="text-center">
-                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
-                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-3 py-2 md:px-6 md:py-4 backdrop-blur-sm">
+                  <div className="text-2xl md:text-4xl font-bold text-[#b0db9c]">
                     {String(timeLeft.seconds).padStart(2, '0')}
                   </div>
-                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Seconds</div>
+                  <div className="uppercase tracking-widest text-gray-300 mt-1">Seconds</div>
                 </div>
               </div>
             </div>

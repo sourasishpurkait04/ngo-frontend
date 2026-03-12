@@ -15,6 +15,17 @@ const Projects = () => {
         'প্রতিবছর বর্ষাকালে সমুদ্র উপকূলবর্তী এলাকা এবং বিভিন্ন বিদ্যালয় প্রাঙ্গণে নতুন চারা গাছ লাগানো হয়।',
       beneficiaries: 5000,
     },
+    {
+      id: 6,
+      name: "রক্তদান শিবির ",
+      date: "Summar (Once a Year)",
+      location: "Kakdwip",
+      image:
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227482/WhatsApp_Image_2026-01-12_at_19.39.49_dacygv.jpg",
+      description: "বছরে একবার  রক্তদান শিবিরের আয়োজন করা হয়।",
+      beneficiaries: 100,
+      photos: [],
+    },
     // {
     //   id: 2,
     //   name: 'সুখের পোশাক',

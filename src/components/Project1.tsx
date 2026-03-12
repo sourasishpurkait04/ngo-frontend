@@ -16,18 +16,7 @@ const Projects1 = () => {
       location: 'করবাড়ি স্টপেজ অশোকপুর , পূর্বময়না পাড়া',
       ongoing: true,
     },
-    {
-      id: 4,
-      name: "কম্বলই সম্বল ",
-      date: "December - January (EveryWinter)",
-      location: "Kakdwip, Namkhana, Sagar, Nischintapur",
-      image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768230373/WhatsApp_Image_2026-01-12_at_19.39.49_xnkqqi.jpg",
-      description:
-        "শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।",
-      beneficiaries: 700,
-      photos: [],
-    },
+    
   ];
 
   const handleProjectClick = (projectId: number) => {
