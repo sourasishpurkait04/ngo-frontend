@@ -108,6 +108,13 @@ const AttendanceForm: React.FC = () => {
           >
             {loading ? 'Submitting...' : 'Submit'}
           </button>
+
+          <a
+            href="https://docs.google.com/spreadsheets/d/1nMNV9ZmjFv7iwdRFX_nzSbakJHcMThrQzNgwaJl4HSk/edit?usp=drivesdk"
+            className="w-full block text-center py-2 mt-3 bg-[#3498db] text-white font-semibold rounded-md hover:bg-[#2b82c5] transition"
+          >
+            Blood Donars List
+          </a>
         </form>
       </div>
     </section>
